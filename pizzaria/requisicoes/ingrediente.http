@@ -1,0 +1,20 @@
+GET HTTP://localhost:8081/api/ingredientes
+###
+
+
+GET HTTP://localhost:8081/api/ingredientes/2
+###
+
+
+
+POST HTTP://localhost:8081/api/ingredientes
+Content-Type: application/json
+
+{
+    "descricao": "Queijo Minas",
+    "medida": "GRAMAS",
+    "dataValidade": "2023-15-20T00:00:00",
+    "valor": 15.0,
+    "observacao": "Queijo mineiro"
+    
+}
